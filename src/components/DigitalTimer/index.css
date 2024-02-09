@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.icons {
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+.start-container {
+  display: flex;
+}
+
+.left-container {
+  display: flex;
+}
+
+.bg-image {
+  height: 500px;
+  width: 550px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plusminus {
+  display: flex;
+}
+
+.plusminusbtn {
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.container img {
+  display: block;
+  width: 100%;
+}
+
+.container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border-radius: 100px;
+}
